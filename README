@@ -1,0 +1,8 @@
+environment requried:
+    python version 3.x
+install library with pip:
+    pip --version
+    pip install -r requirements.txt
+run test-case:
+    robot swag-labs-file.robot
+    robot --include tag-name swag-labs-file.robot
