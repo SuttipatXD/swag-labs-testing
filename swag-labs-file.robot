@@ -27,6 +27,6 @@ Resource        ./resource.robot
     Log    password random: ${password-random}
     Login    ${email-random}     ${password-random}
 
-02-Login-pass
+04-Login-pass
     [Tags]    login-test
     Login    standard_user     secret_sauce
